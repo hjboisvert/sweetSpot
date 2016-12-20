@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/LosAngeles.unity
+  isLoaded: 1
+  isActive: 1
