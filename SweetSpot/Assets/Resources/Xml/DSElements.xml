@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StoryElementContainer>
+	<StoryElement>
+		<Element ElementID= "TestA">
+				<NPCName>Hobo Joe</NPCName>
+				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="JoeDia.ogg">
+						<TextBody>WHAT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Bye.ogg">
+						<TextBody>THE</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Hei.ogg">
+						<TextBody>FUCK</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Bai.ogg">
+						<TextBody>RIGHT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Haluo.ogg">
+						<TextBody>NOW</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+			<Element ElementID= "TestB">
+				<NPCName>Hobo</NPCName>
+				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="Hi">
+						<TextBody>WHAT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Bye">
+						<TextBody>THE</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Hei">
+						<TextBody>FUCK</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Bai">
+						<TextBody>RIGHT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="Haluo">
+						<TextBody>NOW</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+			<Element ElementID= "TestC">
+				<NPCName>Clark</NPCName>
+				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
+
+			<NPCDialogueBoxes>
+				<DialogueBox>WHAT</DialogueBox>
+				<DialogueBox>THE</DialogueBox>
+				<DialogueBox>FUCK</DialogueBox>
+				<DialogueBox>RIGHT NOW</DialogueBox>
+			</NPCDialogueBoxes>
+			</Element>
+
+
+	</StoryElement>
+</StoryElementContainer>
