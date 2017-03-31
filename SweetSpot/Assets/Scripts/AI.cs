@@ -6,10 +6,10 @@ using UnityEngine.Events;
 public class AI : MonoBehaviour {
 
 	public bool Active;
+	public bool Acknowledged;
 	public float speed;
 	public List<AINode> Destinations;
-	public Dictionary<string, UnityEvent> eventDictionary;
-	public AIStates AIS;
+	public AIStates CurrentState;
 
 
 	public enum AIStates
@@ -21,42 +21,18 @@ public class AI : MonoBehaviour {
 		SIT,
 		SPEAKING,
 	}
-
-	public delegate void SaveHandler(string sender, UnityEvent e);
-	public event SaveHandler OnSave;
-
-
-
+		
 	void Awake()
 	{
 		if (Active) {
 
-			AIS = AIStates.STILL;
+			CurrentState = AIStates.STILL;
 		}
-	}
-
-	public void Start()
-	{
-		eventDictionary = new Dictionary<string,UnityEvent> (10);
-		//MySaveFunction ();
-		OnSave += MySaveFunction;
-	}
-
-	public void OnDestroy()
-	{
-		OnSave -= MySaveFunction;
-	}
-
-	public void MySaveFunction(string sender, UnityEvent e)
-	{
-		Debug.Log (sender);
-		eventDictionary.Add (sender, e);
-		//Save this sword in the list of objects that should be spawned when level is loaded
 	}
 
 	public void MoveTo(Vector3 start, Vector3 target)
 	{
-		AIS = AIStates.MOVING;
+		CurrentState = AIStates.MOVING;
 		DrawLine (start, target, new Color (255, 0, 0));
 		float step = speed * Time.deltaTime;
 		transform.position = Vector3.MoveTowards(start, target, step);
@@ -69,29 +45,29 @@ public class AI : MonoBehaviour {
 
 	public void Assert()
 	{
-		if(AIS == AIStates.OFF)
+		if(CurrentState == AIStates.OFF)
 		{
-
+			CurrentState = AIStates.STILL;
 		}
-		else if(AIS == AIStates.STILL)
+		else if(CurrentState == AIStates.STILL)
 		{
-
+			CurrentState = AIStates.MOVING;
 		}
-		else if(AIS == AIStates.MOVING)
+		else if(CurrentState == AIStates.MOVING)
 		{
-
+			CurrentState = AIStates.RUN;
 		}
-		else if(AIS == AIStates.RUN)
+		else if(CurrentState == AIStates.RUN)
 		{
-
+			CurrentState = AIStates.SIT;
 		}
-		else if(AIS == AIStates.SIT)
+		else if(CurrentState == AIStates.SIT)
 		{
-
+			CurrentState = AIStates.SPEAKING;
 		}
-		else if(AIS == AIStates.SPEAKING)
+		else if(CurrentState == AIStates.SPEAKING)
 		{
-
+			CurrentState = AIStates.OFF;
 		}
 	}
 	

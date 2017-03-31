@@ -8,13 +8,20 @@ public class AINode : MonoBehaviour {
 	public Vector3 position;
 	public bool Triggered;
 
+	void OnMouseButtonDown()
+	{
+		Debug.Log ("AINode " + gameObject.name);
+	}
+
 	void OnTriggerEnter()
 	{
 		Triggered = true;
 	}
+
 	// Use this for initialization
 	void Start () {
-		
+		Col = gameObject.GetComponent<Collider> ();
+		position = gameObject.transform.position;
 	}
 	
 	// Update is called once per frame
