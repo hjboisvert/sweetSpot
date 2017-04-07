@@ -32,6 +32,11 @@ public class AI : MonoBehaviour {
 
 	public void MoveTo(Vector3 start, Vector3 target)
 	{
+		if(start.x >= target.x)
+		{
+			transform.position = transform.position;
+		}
+
 		CurrentState = AIStates.MOVING;
 		DrawLine (start, target, new Color (255, 0, 0));
 		float step = speed * Time.deltaTime;
@@ -72,12 +77,17 @@ public class AI : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Start() {
 		
+	}
+
+	void Update(){
+		MoveTo (gameObject.transform.position, Destinations[0].position);
 	}
 		
 	void DrawLine(Vector3 start, Vector3 end, Color color, float duration = 0.2f)
-	{
+	{	
+		bool str = true;
 		GameObject myLine = new GameObject();
 		myLine.transform.position = start;
 		myLine.AddComponent<LineRenderer>();
@@ -87,6 +97,7 @@ public class AI : MonoBehaviour {
 		lr.SetWidth(0.1f, 0.1f);
 		lr.SetPosition(0, start);
 		lr.SetPosition(1, end);
+		lr.tag = "AIPath";
 		GameObject.Destroy(myLine, duration);
 	}
 }

@@ -12,6 +12,11 @@ public class StoryElementContainer
 	[XmlArray("StoryElement"), XmlArrayItem("Element")]
 	public List<DStoryElement> DSE;
 
+	/*void Awake()
+	{
+		DSE = DSE.Load (LoadPath);
+	}*/
+
 	//public StoryElement SE;
 	protected bool ConvoTriggered;
 
@@ -22,4 +27,6 @@ public class StoryElementContainer
 			return xml.Deserialize (file) as StoryElementContainer;
 		}
 	}
+
+
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCharacter : MonoBehaviour {
 
+
 	public string playerName;
 	public int playerStress;
 	public List<bool> LifeLines;
@@ -13,6 +14,7 @@ public class PlayerCharacter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Application.targetFrameRate = 60;
 		PlayerPrefs.SetString ("Player_Name",playerName);	
 		PlayerPrefs.SetInt ("Player_Stress", playerStress);
 	}

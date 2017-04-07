@@ -6,6 +6,7 @@ public class StoryDialogue : MonoBehaviour {
 
 	public string SID;
 	public string TextBody;
+	public DStoryDialogue DS9;
 		
 	public StoryDialogue()
 	{
