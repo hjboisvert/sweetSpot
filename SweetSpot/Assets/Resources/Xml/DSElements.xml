@@ -1,64 +1,1018 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF_8"?>
 <StoryElementContainer>
 	<StoryElement>
-		<Element ElementID= "TestA">
+
+		<Element ElementID= "Object_ID:Amira">
+				<NPCName>Amira</NPCName>
+				<NPCPortrait>Portrait/Amira</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="amira_s00_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Bystander">
+				<NPCName>Bystander</NPCName>
+				<NPCPortrait>Portrait/Bystander</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="worldstar_s04_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Chicano01">
+				<NPCName>Chicano 01</NPCName>
+				<NPCPortrait>Portrait/Chicano01</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="chicano_A_s02_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="chicano_A_s02_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="chicano_A_s02_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="chicano_A_s02_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Chicano02">
+				<NPCName>Chicano 02</NPCName>
+				<NPCPortrait>Portrait/Chicano02</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="chicano_B_s02_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="chicano_B_s02_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="chicano_B_s02_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="chicano_B_s02_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Cop_A">
+				<NPCName>Cop A</NPCName>
+				<NPCPortrait>Portrait/CopA</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="copA_s04_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="copA_s04_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Cop_B">
+				<NPCName>Cop A</NPCName>
+				<NPCPortrait>Portrait/CopA</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="copB_s04_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Deli_Man">
+				<NPCName>Deli Man</NPCName>
+				<NPCPortrait>Portrait/DeliMan</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="deliMan_s03_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="deliMan_s03_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="deliMan_s03_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Diana">
+				<NPCName>Diana</NPCName>
+				<NPCPortrait>Portrait/Diana</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="diana_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_09.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_10.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_11.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_12.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+
+					<DialogueBox SoundID="diana_s00_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s00_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s00_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+
+					<DialogueBox SoundID="diana_s01_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_09.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_10.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_11.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_12.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_13.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_14.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_15.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_16.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_17.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_18.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_19.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_20.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s01_21.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+
+					<DialogueBox SoundID="diana_s02_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_09.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_10.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s02_10_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+
+					<DialogueBox SoundID="diana_s03_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_09.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_10.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s03_11.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+
+					<DialogueBox SoundID="diana_s05_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_09.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_10.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_11.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_12.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s05_13.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+
+					<DialogueBox SoundID="diana_s06_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s06_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="diana_s06_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Ernie">
+				<NPCName>Ernie</NPCName>
+				<NPCPortrait>Portrait/Ernie</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="ernie_s01_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_09.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_10.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="ernie_s01_11.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Ex">
+				<NPCName>Ex</NPCName>
+				<NPCPortrait>Portrait/Ex</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="dsEx_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="dsEx_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Geek_Millionaire">
+				<NPCName>Geek Millionaire</NPCName>
+				<NPCPortrait>Portrait/GeekMillionaire</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="geekMil_s00_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="geekMil_s00_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="geekMil_s00_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="geekMil_s00_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:Hispanic_Adult">
+				<NPCName>Hispanic_Adult</NPCName>
+				<NPCPortrait>Portrait/Hispanic_Adult</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="mark_s03-01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mark_s03-02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mark_s03-03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mark_s03-04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mark_s03-05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mark_s03-06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mark_s03-07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mark_s03-08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID:HoboJoe">
 				<NPCName>Hobo Joe</NPCName>
 				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="JoeDia.ogg">
-						<TextBody>WHAT</TextBody>
+					<DialogueBox SoundID="hoboJo_s04_01.mp3">
+						<TextBody>Text</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Bye.ogg">
-						<TextBody>THE</TextBody>
+					<DialogueBox SoundID="hoboJo_s04_01_v2.mp3">
+						<TextBody>Text</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Hei.ogg">
-						<TextBody>FUCK</TextBody>
+					<DialogueBox SoundID="hoboJo_s04_02.mp3">
+						<TextBody>Text</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Bai.ogg">
-						<TextBody>RIGHT</TextBody>
+					<DialogueBox SoundID="hoboJo_s04_02_v2.mp3">
+						<TextBody>Text</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Haluo.ogg">
-						<TextBody>NOW</TextBody>
+					<DialogueBox SoundID="hoboJo_s04_03.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s04_03_v2.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s04_04_v2.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s04_04.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+
+					<DialogueBox SoundID="hoboJo_s05_01.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_01_v2.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_02.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_02_v2.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_03.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_03_v2.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_04.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_05.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_05_v2.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_06.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_07.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_08.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_09.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_10.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_10-v2.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_11.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_12.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_13.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_14.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_15.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_16.mp3">
+						<TextBody>Text</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="hoboJo_s05_17.mp3">
+						<TextBody>Text</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
 			</Element>
 
-			<Element ElementID= "TestB">
-				<NPCName>Hobo</NPCName>
-				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
+		<Element ElementID= "Object_ID:Man">
+				<NPCName>Man</NPCName>
+				<NPCPortrait>Portrait/Man</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="Hi">
-						<TextBody>WHAT</TextBody>
+					<DialogueBox SoundID="man_01.mp3">
+						<TextBody>TEXT</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Bye">
-						<TextBody>THE</TextBody>
+					<DialogueBox SoundID="man_01_v2.mp3">
+						<TextBody>TEXT</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Hei">
-						<TextBody>FUCK</TextBody>
+					<DialogueBox SoundID="man_02.mp3">
+						<TextBody>TEXT</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Bai">
-						<TextBody>RIGHT</TextBody>
+					<DialogueBox SoundID="man_02_v2.mp3">
+						<TextBody>TEXT</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Haluo">
-						<TextBody>NOW</TextBody>
+					<DialogueBox SoundID="man_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_03_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_04_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_05_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_05_v3.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="man_06_v2.mp3">
+						<TextBody>TEXT</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
 			</Element>
 
-			<Element ElementID= "TestC">
-				<NPCName>Clark</NPCName>
-				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
+		<Element ElementID= "Object_ID: Matt">
+				<NPCName>Matt</NPCName>
+				<NPCPortrait>Portrait/Matt</NPCPortrait>
 
-			<NPCDialogueBoxes>
-				<DialogueBox>WHAT</DialogueBox>
-				<DialogueBox>THE</DialogueBox>
-				<DialogueBox>FUCK</DialogueBox>
-				<DialogueBox>RIGHT NOW</DialogueBox>
-			</NPCDialogueBoxes>
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="matt_s01_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_01_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_02_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_02_v3.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_02_v4.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_03_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_03_v3.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_03_v4.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_05_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_05_v3.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_05_v4.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_06.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_06_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_06_v3.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_07.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_07_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_07_v3.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_08.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_08_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_08_v3.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_09.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="matt_s01_09_v2.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
 			</Element>
 
+		<Element ElementID= "Object_ID: Mexican_Adult">
+				<NPCName>Mexican_Adult</NPCName>
+				<NPCPortrait>Portrait/Mexican_Adult</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="mexicanA_s03_01.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mexicanA_s03_02.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mexicanA_s03_03.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mexicanA_s03_04.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+					<DialogueBox SoundID="mexicanA_s03_05.mp3">
+						<TextBody>TEXT</TextBody>
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+
+		<Element ElementID= "Object_ID: TV">
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="tv_mex.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="tv_news.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Ambience">
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="ambience_hwStore.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="ambience_playground.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="soundBleed_gymparty.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="soundBleed_jazz.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="soundBleed_lounge.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="soundBleed_salsa.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Crowds">
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="crowd_adult-laughs.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="crowd_exterior-kids.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="crowd_exterior-teen.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="crowd_exterior-teen-02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="crowd_interior-medium.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="crowd_interior-restaurant.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="crowd_male-smallGroup.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="crowd_teen-party.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Household_Sounds">
+
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="cassette_player.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="chair_slide-01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="chair_slide-02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="door_close.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="doorKnock_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="glass_ice-01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="glass_ice-02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="glass_ice-03.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="glass_water-01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="glass_water-02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="key_jingle.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="knife_cutting.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="mug_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="mug_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="pill_bounce.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="plastic_bag-01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="plastic_bag-02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="radio_tuning.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="sofa_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="sofa_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="sofa_03.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="sofa_04.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="sofa_05.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="sofa_06.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="vcr.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Human_Action">
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="Belch_1.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="Belch_2.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="Cigarette_Inhale.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="cloth_brushing.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="cloth_wooshGrab.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="Cough_1.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="Cough_2.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="coughing_male.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="eating_chips_1.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="eating_chips_2.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="fork_scrape_1.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="fork_scrape_2.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="laugh_female.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="MakeUpBag_Rattle.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="matchStrike.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="napkin_wipe.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="punch_impact.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="scream_man.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="Slurp.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="sneeze.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="swallow_liquid.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="Swallow.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="toothpick_slurp.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Indoors">
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="register_1.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="register_2.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="stadiumCrowd_ambience.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="stadiumCrowd_ampplause.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Nature">
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="bird_canary.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="bird_crow.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="bird_gull.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="bird_sparrow.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Vehicles">
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="bus_drive.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="bus_stop.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_arriveStop.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_bmw.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_corvette.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_foreign_rev.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_horn_doppler.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_hornHonk.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_hornHonk_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="car_porsche_start.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="fire_siren.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="garbageTruck_engine.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="helicopter.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="police_siren.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="police_siren_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="police_whoop.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="police_yelp.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="traffic_cityStreet.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="traffic_highway.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="truck_backupBeep.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="truck_horn.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="truck_horn_02.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: UI">
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="buttonHit.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="countDown.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="doorBell.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="gameOver.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="lifeLine.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="menuClose.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="menuOpen.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="menuSelect.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="mixtapeFall.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="mouseScroll_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="mouseScroll_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="notification.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="reticleHover_10sec.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="reticleHover_15sec.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="reticleHover_20sec.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="reticleSelect.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="ringtone_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="ringtone_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="ringtone_03.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="ringtone_04.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="ringtone_04.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="stressBeat_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="stressBeat_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="stressBeat_03.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="stressBeat_04.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="textPopUp_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="textPopUp_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="textReceive_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="textReceive_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="textSend_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="textSend_02.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
+
+		<Element ElementID= "Object_ID: Music">
+				<NPCDialogueBoxes>
+					<DialogueBox SoundID="music_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="music_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="music_03.mp3">
+					</DialogueBox>
+				</NPCDialogueBoxes>
+			</Element>
 
 	</StoryElement>
 </StoryElementContainer>
