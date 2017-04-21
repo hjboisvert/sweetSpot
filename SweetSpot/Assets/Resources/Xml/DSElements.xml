@@ -6,20 +6,39 @@
 				<NPCPortrait>Portraits/HoboJoe</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="JoeDia.ogg">
-						<TextBody>WHAT</TextBody>
+					<DialogueBox CharacterID="Qian">
+						<SoundID>Qian.ogg</SoundID>
+						<TextBody>Making Money everyday?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Bye.ogg">
-						<TextBody>THE</TextBody>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>Qian.ogg</SoundID>
+						<TextBody>Making Money everyday?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Hei.ogg">
-						<TextBody>FUCK</TextBody>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>Qian.ogg</SoundID>
+						<TextBody>Making Money everyday?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Bai.ogg">
-						<TextBody>RIGHT</TextBody>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>Qian.ogg</SoundID>
+						<TextBody>Making Money everyday?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="Haluo.ogg">
-						<TextBody>NOW</TextBody>
+				</NPCDialogueBoxes>
+			</Element>
+
+			<Element ElementID= "TestB">
+				<NPCName>Qian</NPCName>
+				<NPCPortrait>Portraits/Qian</NPCPortrait>
+
+				<NPCDialogueBoxes>
+					<DialogueBox CharacterID=" 
+					">
+						<SoundID>Qian.ogg</SoundID>
+						<TextBody>Hey, I'm making money everyday</TextBody>
+					</DialogueBox>
+
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>Bye.ogg</SoundID>
+						<TextBody>Thanks!</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
 			</Element>

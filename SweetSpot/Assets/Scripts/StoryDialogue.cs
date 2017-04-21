@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StoryDialogue : MonoBehaviour {
 
+	public string CID;
 	public string SID;
 	public string TextBody;
 	public DStoryDialogue DS9;
@@ -15,6 +16,7 @@ public class StoryDialogue : MonoBehaviour {
 
 	public StoryDialogue(DStoryDialogue DS)
 	{
+		DS.CID = CID;
 		DS.SID = SID;
 		DS.TextBody = TextBody;
 	}

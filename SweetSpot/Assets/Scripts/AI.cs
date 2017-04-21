@@ -11,7 +11,6 @@ public class AI : MonoBehaviour {
 	public List<AINode> Destinations;
 	public AIStates CurrentState;
 
-
 	public enum AIStates
 	{
 		OFF,
@@ -25,22 +24,24 @@ public class AI : MonoBehaviour {
 	void Awake()
 	{
 		if (Active) {
-
 			CurrentState = AIStates.STILL;
+		} else {
+			CurrentState = AIStates.OFF;
 		}
 	}
 
 	public void MoveTo(Vector3 start, Vector3 target)
 	{
-		if(start.x >= target.x)
-		{
-			transform.position = transform.position;
-		}
+		if (Active) {
+			if (start.x >= target.x) {
+				transform.position = transform.position;
+			}
 
-		CurrentState = AIStates.MOVING;
-		DrawLine (start, target, new Color (255, 0, 0));
-		float step = speed * Time.deltaTime;
-		transform.position = Vector3.MoveTowards(start, target, step);
+			CurrentState = AIStates.MOVING;
+			DrawLine (start, target, new Color (255, 0, 0), 0.5f);
+			float step = speed * Time.deltaTime;
+			transform.position = Vector3.MoveTowards (start, target, step);
+		}
 	}
 
 	public void TravelPath(AINode pathNode, bool tillTerminate)
@@ -85,19 +86,19 @@ public class AI : MonoBehaviour {
 		MoveTo (gameObject.transform.position, Destinations[0].position);
 	}
 		
-	void DrawLine(Vector3 start, Vector3 end, Color color, float duration = 0.2f)
+	void DrawLine(Vector3 start, Vector3 end, Color color, float duration = 0.1f)
 	{	
-		bool str = true;
 		GameObject myLine = new GameObject();
 		myLine.transform.position = start;
 		myLine.AddComponent<LineRenderer>();
 		LineRenderer lr = myLine.GetComponent<LineRenderer>();
 		lr.material = new Material(Shader.Find("Particles/Alpha Blended Premultiply"));
 		lr.SetColors(color, color);
-		lr.SetWidth(0.1f, 0.1f);
+		lr.startWidth = 0.1f;
+		lr.endWidth = 0.1f;
 		lr.SetPosition(0, start);
 		lr.SetPosition(1, end);
-		lr.tag = "AIPath";
-		GameObject.Destroy(myLine, duration);
+		myLine.tag = "AIPath";
+		GameObject.Destroy(myLine, 0.1f);
 	}
 }

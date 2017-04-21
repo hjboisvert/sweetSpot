@@ -5,7 +5,10 @@ using System.Xml.Serialization;
 
 public class DStoryDialogue {
 	
-	[XmlAttribute("SoundID")]
+	[XmlAttribute("CharacterID")]
+	public string CID;
+
+	[XmlElement("SoundID")]
 	public string SID;
 
 	[XmlElement("TextBody")]

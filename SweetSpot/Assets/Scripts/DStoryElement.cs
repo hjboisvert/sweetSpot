@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 public class DStoryElement
 {
 	[XmlAttribute("ElementID")]
-	public string CID;
+	public string EID;
 	[XmlElement("NPCName")]
 	public string NPCName;
 	[XmlArray("NPCDialogueBoxes"), XmlArrayItem("DialogueBox")]

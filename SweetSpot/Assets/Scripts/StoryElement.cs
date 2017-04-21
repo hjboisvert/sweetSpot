@@ -10,7 +10,7 @@ public class StoryElement : MonoBehaviour
 
 	public string DialogueTemplate;
 	public string NPCName;
-	public Texture Portrait;
+	public Sprite Portrait;
 	public List<StoryDialogue> DialogueBoxes;
 
 	void Awake()
@@ -37,14 +37,14 @@ public class StoryElement : MonoBehaviour
 	public void Load(DStoryElement DS)
 	{
 		NPCName = DS.NPCName;
-		Portrait = Resources.Load<Texture> (DS.Portrait);
-		 //GameObject.Find (DialogueTemplate);
+		Portrait = Resources.Load<Sprite> (DS.Portrait);
 
 		for(int s = 0; s < DS.DialogueBoxes.Count; s++)
 		{
 			GameObject DSX = Instantiate(Resources.Load("TemplateDialogue")) as GameObject;
 			DSX.name = DS.DialogueBoxes[s].SID;
 			DSX.GetComponent<StoryDialogue> ().DS9 = DS.DialogueBoxes [s];
+			DSX.GetComponent<StoryDialogue>().CID = DSX.GetComponent<StoryDialogue>().DS9.CID;
 			DSX.GetComponent<StoryDialogue>().SID = DSX.GetComponent<StoryDialogue>().DS9.SID;
 			DSX.GetComponent<StoryDialogue>().TextBody = DSX.GetComponent<StoryDialogue>().DS9.TextBody;//DS.DialogueBoxes [s].TextBody;
 			DialogueBoxes.Add (DSX.GetComponent<StoryDialogue>());

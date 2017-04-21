@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Character
   - StoryDialogue
+  - AIPath
+  - AI
   layers:
   - Default
   - TransparentFX
