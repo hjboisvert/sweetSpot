@@ -722,6 +722,24 @@
 					</DialogueBox>
 					<DialogueBox SoundID="eating_chips_2.mp3">
 					</DialogueBox>
+					<DialogueBox SoundID="footsteps.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_01.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_02.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_03.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_04.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_05.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_06.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_07.mp3">
+					</DialogueBox>
+					<DialogueBox SoundID="footstep_08.mp3">
+					</DialogueBox>
 					<DialogueBox SoundID="fork_scrape_1.mp3">
 					</DialogueBox>
 					<DialogueBox SoundID="fork_scrape_2.mp3">
