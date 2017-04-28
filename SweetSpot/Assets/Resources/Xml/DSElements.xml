@@ -2,7 +2,7 @@
 <StoryElementContainer>
 	<StoryElement>
 
-		<Element ElementID= "Object_ID:Amira">
+		<Element ElementID= "Amira">
 				<NPCName>Amira</NPCName>
 				<NPCPortrait>Portrait/Amira</NPCPortrait>
 
@@ -14,7 +14,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Bystander">
+		<Element ElementID= "Bystander">
 				<NPCName>Bystander</NPCName>
 				<NPCPortrait>Portrait/Bystander</NPCPortrait>
 
@@ -26,7 +26,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Chicano01">
+		<Element ElementID= "Chicano01">
 				<NPCName>Chicano 01</NPCName>
 				<NPCPortrait>Portrait/Chicano01</NPCPortrait>
 
@@ -50,7 +50,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Chicano02">
+		<Element ElementID= "Chicano02">
 				<NPCName>Chicano 02</NPCName>
 				<NPCPortrait>Portrait/Chicano02</NPCPortrait>
 
@@ -74,7 +74,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Cop_A">
+		<Element ElementID= "Cop_A">
 				<NPCName>Cop A</NPCName>
 				<NPCPortrait>Portrait/CopA</NPCPortrait>
 
@@ -90,7 +90,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Cop_B">
+		<Element ElementID= "Cop_B">
 				<NPCName>Cop A</NPCName>
 				<NPCPortrait>Portrait/CopA</NPCPortrait>
 
@@ -102,7 +102,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Deli_Man">
+		<Element ElementID= "Deli_Man">
 				<NPCName>Deli Man</NPCName>
 				<NPCPortrait>Portrait/DeliMan</NPCPortrait>
 
@@ -122,7 +122,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Diana">
+		<Element ElementID= "Diana">
 				<NPCName>Diana</NPCName>
 				<NPCPortrait>Portrait/Diana</NPCPortrait>
 
@@ -432,7 +432,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Ernie">
+		<Element ElementID= "Ernie">
 				<NPCName>Ernie</NPCName>
 				<NPCPortrait>Portrait/Ernie</NPCPortrait>
 
@@ -484,7 +484,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Ex">
+		<Element ElementID= "Ex">
 				<NPCName>Ex</NPCName>
 				<NPCPortrait>Portrait/Ex</NPCPortrait>
 
@@ -500,7 +500,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Geek_Millionaire">
+		<Element ElementID= "Geek_Millionaire">
 				<NPCName>Geek Millionaire</NPCName>
 				<NPCPortrait>Portrait/GeekMillionaire</NPCPortrait>
 
@@ -524,7 +524,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Hispanic_Latino_Adults">
+		<Element ElementID= "Hispanic_Latino_Adults">
 				<NPCName>Hispanic_Latino_Adult</NPCName>
 				<NPCPortrait>Portrait/Hispanic_Latino_Adult</NPCPortrait>
 
@@ -564,7 +564,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:HoboJoe">
+		<Element ElementID= "HoboJoe">
 				<NPCName>Hobo Joe</NPCName>
 				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
 
@@ -657,7 +657,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID:Man">
+		<Element ElementID= "Man">
 				<NPCName>Man</NPCName>
 				<NPCPortrait>Portrait/Man</NPCPortrait>
 
@@ -689,7 +689,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Matt">
+		<Element ElementID= "Matt">
 				<NPCName>Matt</NPCName>
 				<NPCPortrait>Portrait/Matt</NPCPortrait>
 
@@ -733,7 +733,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Mexican_Adult">
+		<Element ElementID= "Mexican_Adult">
 				<NPCName>Mexican_Adult</NPCName>
 				<NPCPortrait>Portrait/Mexican_Adult</NPCPortrait>
 
@@ -749,7 +749,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: TV">
+		<Element ElementID= "TV">
 				<NPCDialogueBoxes>
 					<DialogueBox CharacterID="TV">
 						<SoundID>tv_mex.mp3</SoundID>
@@ -762,7 +762,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Ambience">
+		<Element ElementID= "Ambience">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="ambience_hwStore.mp3">
 					</DialogueBox>
@@ -779,7 +779,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Crowds">
+		<Element ElementID= "Crowds">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="crowd_adult-laughs.mp3">
 					</DialogueBox>
@@ -800,7 +800,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Household_Sounds">
+		<Element ElementID= "Household_Sounds">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="cassette_player.mp3">
 					</DialogueBox>
@@ -855,7 +855,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Human_Action">
+		<Element ElementID= "Human_Action">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="Belch_1.mp3">
 					</DialogueBox>
@@ -924,7 +924,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Indoors">
+		<Element ElementID= "Indoors">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="register_1.mp3">
 					</DialogueBox>
@@ -937,7 +937,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Nature">
+		<Element ElementID= "Nature">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="bird_canary.mp3">
 					</DialogueBox>
@@ -950,7 +950,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Vehicles">
+		<Element ElementID= "Vehicles">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="bus_drive.mp3">
 					</DialogueBox>
@@ -999,7 +999,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: UI">
+		<Element ElementID= "UI">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="buttonHit.mp3">
 					</DialogueBox>
@@ -1066,7 +1066,7 @@
 				</NPCDialogueBoxes>
 			</Element>
 
-		<Element ElementID= "Object_ID: Music">
+		<Element ElementID= "Music">
 				<NPCDialogueBoxes>
 					<DialogueBox SoundID="music_01.mp3">
 					</DialogueBox>
