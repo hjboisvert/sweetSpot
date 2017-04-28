@@ -7,7 +7,8 @@
 				<NPCPortrait>Portrait/Amira</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="amira_s00_01.mp3">
+					<DialogueBox CharacterID="Amira">
+						<SoundID>amira_s00_01.mp3</SoundID>
 						<TextBody>Hey guys, I'm done here, I'm leaving.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -18,7 +19,8 @@
 				<NPCPortrait>Portrait/Bystander</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="worldstar_s04_01.mp3">
+					<DialogueBox CharacterID="Bystander">
+						<SoundID>worldstar_s04_01.mp3</SoundID>
 						<TextBody>World Star!</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -29,16 +31,20 @@
 				<NPCPortrait>Portrait/Chicano01</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="chicano_A_s02_01.mp3">
+					<DialogueBox CharacterID="Chicano 01"> 
+						<SoundID>chicano_A_s02_01.mp3</SoundID>
 						<TextBody>You didn't even try to get to know me.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="chicano_A_s02_02.mp3">
+					<DialogueBox CharacterID="Chicano 01">
+						<SoundID>chicano_A_s02_02.mp3</SoundID>
 						<TextBody>Awe, c'mon, don't you want a taste of this Latin flair?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="chicano_A_s02_03.mp3">
+					<DialogueBox CharacterID="Chicano 01">
+						<SoundID>chicano_A_s02_03.mp3</SoundID>
 						<TextBody>Aye que trapo tan fea.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="chicano_A_s02_04.mp3">
+					<DialogueBox CharacterID="Chicano 01">
+						<SoundID>chicano_A_s02_04.mp3</SoundID>
 						<TextBody>I’m sorry to break it to you but having Colombian friends doesn’t make you Hispanic, mama.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -49,16 +55,20 @@
 				<NPCPortrait>Portrait/Chicano02</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="chicano_B_s02_01.mp3">
+					<DialogueBox CharacterID="Chicano 02">
+						<SoundID>chicano_B_s02_01.mp3</SoundID>
 						<TextBody>Where you goin, mi hermano’s talking to you.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="chicano_B_s02_02.mp3">
-						<TextBody>Oh, don’t be like that</TextBody>
+					<DialogueBox CharacterID="Chicano 02">
+						<SoundID>chicano_B_s02_02.mp3</SoundID>
+						<TextBody>Oh, don’t be like that.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="chicano_B_s02_03.mp3">
-						<TextBody>Trust me... You didn’t</TextBody>
+					<DialogueBox CharacterID="Chicano 02">
+						<SoundID>chicano_B_s02_03.mp3</SoundID>
+						<TextBody>Trust me... You didn’t.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="chicano_B_s02_04.mp3">
+					<DialogueBox CharacterID="Chicano 02">
+						<SoundID>chicano_B_s02_04.mp3</SoundID>
 						<TextBody>The white girl knows a little Spanish and think she’s all that.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -69,10 +79,12 @@
 				<NPCPortrait>Portrait/CopA</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="copA_s04_01.mp3">
+					<DialogueBox CharacterID="Cop A">
+						<SoundID>copA_s04_01.mp3</SoundID>
 						<TextBody>What are you doing in this corner at this time at night.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="copA_s04_02.mp3">
+					<DialogueBox CharacterID="Cop A">
+						<SoundID>copA_s04_02.mp3</SoundID>
 						<TextBody>This is the hottest garbage I have ever heard. Why did you bother doing this?</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -83,8 +95,9 @@
 				<NPCPortrait>Portrait/CopA</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="copB_s04_01.mp3">
-						<TextBody>We will be taking your greatest hit making looze dollaz change again</TextBody>
+					<DialogueBox CharacterID="Cop B">
+						<SoundID>copB_s04_01.mp3</SoundID>
+						<TextBody>We will be taking your greatest hit making looze dollaz change again.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
 			</Element>
@@ -94,13 +107,16 @@
 				<NPCPortrait>Portrait/DeliMan</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="deliMan_s03_01.mp3">
+					<DialogueBox CharacterID="Deli Man">
+						<SoundID>deliMan_s03_01.mp3</SoundID>
 						<TextBody>What would you like missy?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="deliMan_s03_02.mp3">
+					<DialogueBox CharacterID="Deli Man">
+						<SoundID>deliMan_s03_02.mp3</SoundID>
 						<TextBody>Yeah, Their just feeling some type of way because the other day, their friends had to watch their favorite corner store from around the block turn into a starbucks right in front of their faces! This area is under gentrification, So I think they're just a little bit on edge.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="deliMan_s03_03.mp3">
+					<DialogueBox CharacterID="Deli Man">
+						<SoundID>deliMan_s03_03.mp3</SoundID>
 						<TextBody>Hey, your sandwich is ready, that will be $4.50 please, but for you, it’s on the house, enjoy!</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -111,232 +127,306 @@
 				<NPCPortrait>Portrait/Diana</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="diana_01.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_01.mp3</SoundID>
 						<TextBody>Hey bastard! Why are you messaging me again even after we were through, I thought i told you to delete my number! Do it now! This the last time i’ll say this!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_02.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_02.mp3</SoundID>
 						<TextBody>Bruh you would have thought, you already had a chance, you're disgusting!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_03.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_03.mp3</SoundID>
 						<TextBody>And that’s why you stayed living at your frapper’s house you hideous pendejo, you're nothing but a moocher in desperate need of a life! Bye!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_04.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_04.mp3</SoundID>
 						<TextBody>Dang they're so worried about me, I’ll let them know that I’m on my way home.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_05.mp3">
-						<TextBody>Sorry about that, there’s a lot of people out here tonight</TextBody>
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_05.mp3</SoundID>
+						<TextBody>Sorry about that, there’s a lot of people out here tonight.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_06.mp3">
-						<TextBody>Pfft! You could be Obama and I wouldn’t give a fuck. It’s called manners and I’m sorry your mom didn’t know how to raise you with any</TextBody>
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_06.mp3</SoundID>
+						<TextBody>Pfft! You could be Obama and I wouldn’t give a fuck. It’s called manners and I’m sorry your mom didn’t know how to raise you with any.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_07.mp3">
-						<TextBody>You outta what? I wish you would try to hit me, you saw what happened to Chris Brown</TextBody>
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_07.mp3</SoundID>
+						<TextBody>You outta what? I wish you would try to hit me, you saw what happened to Chris Brown.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_08.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_08.mp3</SoundID>
 						<TextBody>Wow what an asshole, this is why I hate apologizing ughh!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_09.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_09.mp3</SoundID>
 						<TextBody>My bad I didn’t i think I may have had one too many drinks!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_10.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_10.mp3</SoundID>
 						<TextBody>How dare this bastard message me again! I’m gonna call him and give him a piece of my mind!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_11.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_11.mp3</SoundID>
 						<TextBody>It’s not like I’m 15 years old, why can’t they see that I’m trying to live my life without being bugged! It’s not like I want to stay at their place forever.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_12.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_12.mp3</SoundID>
 						<TextBody>What the fuck man! It’s LA, are you not used to being on packed street? Get outta here with all that nonsense!</TextBody>
 					</DialogueBox>
 
-					<DialogueBox SoundID="diana_s00_01.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s00_01.mp3</SoundID>
 						<TextBody>Awww.. what a gentlemen you are.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s00_02.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s00_02.mp3</SoundID>
 						<TextBody>Ok... bye now.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s00_03.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s00_03.mp3</SoundID>
 						<TextBody>Fuck you, you Jabba the Hutt-lookin-virgin-pimple-faced fuck. How dare you?!</TextBody>
 					</DialogueBox>
 
-					<DialogueBox SoundID="diana_s01_01.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_01.mp3</SoundID>
 						<TextBody>Definitely, I finally taught that sleazebag Sandler a well deserved lesson.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_02.mp3">
-						<TextBody>Ehh...the gym was half dead. Strangler’s lucky he’s alive, everyone's still a whole bunch of judgmental assholes, and Jason aged just as good as Macaulay Culkin...I'd say the night was wonderful</TextBody>
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_02.mp3</SoundID>
+						<TextBody>Ehh...the gym was half dead. Strangler’s lucky he’s alive, everyone's still a whole bunch of judgmental assholes, and Jason aged just as good as Macaulay Culkin...I'd say the night was wonderful.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_03.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_03.mp3</SoundID>
 						<TextBody>Are you for real, Ernie? How could you even ask that, the night was terrible, the reunion was a bust everyone was so self centered and obnoxious and not to mention Jason going from looking like a young Johnny Depp to an adult Macaulay Culkin.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_04.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_04.mp3</SoundID>
 						<TextBody>Whatever, I’m over him anyway. And Strangler’s lucky I didn’t beat smash his family jewels right there and then!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_05.mp3">
-						<TextBody>To be honest everybody in that school were assholes anyways, I’m just glad we made it out of there on time</TextBody>
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_05.mp3</SoundID>
+						<TextBody>To be honest everybody in that school were assholes anyways, I’m just glad we made it out of there on time.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_06.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_06.mp3</SoundID>
 						<TextBody>Come on Ernie, is that even a question? You already know my go to drink. A tequila sunrise with a slice of lemon and a cherry on top.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_07.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_07.mp3</SoundID>
 						<TextBody>I think I’m gonna pass tonight. I’ve been living this sober life and it’s been going swell so far.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_08.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_08.mp3</SoundID>
 						<TextBody>No that's okay, I'm pretty hungry and want to get a chopped cheese. Plus I'm not along your route anyway.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_09.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_09.mp3</SoundID>
 						<TextBody>I just learned about it from some guy who took me on a date a few months ago, he was from New York. Apparently they're really popular over there, you get them at the bodega. It's basically a hamburger but the patty is chopped up and it's served on a roll or hero instead of a burger bun. The guy ended up being a piece of shit but I am forever grateful to him for putting me on.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_10.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_10.mp3</SoundID>
 						<TextBody>Another thing of him that's stuck on me. It's New York slang for teaching someone something.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_11.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_11.mp3</SoundID>
 						<TextBody>Fine! Leave! I don't give two fucks!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_12.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_12.mp3</SoundID>
 						<TextBody>Why’d you even choose to work here? You know this has been our favorite chill spot. You just had to come and fuck it up!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_13.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_13.mp3</SoundID>
 						<TextBody>Actually you're right. But still, I'm sure you know how dramatic Leani gets.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_14.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_14.mp3</SoundID>
 						<TextBody>Drinks on you?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_15.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_15.mp3</SoundID>
 						<TextBody>Oh shut up.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_16.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_16.mp3</SoundID>
 						<TextBody>But yeah I’ll take a tequila sunrise with a slice of lemon and a cherry on top, make it snappy!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_17.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_17.mp3</SoundID>
 						<TextBody>But I’m gonna pass tonight, I’ve been living this sober life and it’s been going really great, I wouldn’t want to ruin a good thing.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_18.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_18.mp3</SoundID>
 						<TextBody>Wow you’re such an asshole, how did Leani ever date you!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_19.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_19.mp3</SoundID>
 						<TextBody>I’m getting a little hungry, I'm in the mood for chopped cheese, I think I’m gonna head out.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_20.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_20.mp3</SoundID>
 						<TextBody>You got yourself a deal!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s01_21.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s01_21.mp3</SoundID>
 						<TextBody>I’m a little more classy than just some henny you know this.</TextBody>
 					</DialogueBox>
 
-					<DialogueBox SoundID="diana_s02_01.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_01.mp3</SoundID>
 						<TextBody>What a bunch of assholes.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_02.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_02.mp3</SoundID>
 						<TextBody>Not interested.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_03.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_03.mp3</SoundID>
 						<TextBody>That’s cause I don’t want to get to know you.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_04.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_04.mp3</SoundID>
 						<TextBody>Byee.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_05.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_05.mp3</SoundID>
 						<TextBody>Who does he think he’s talking to like that?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_06.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_06.mp3</SoundID>
 						<TextBody>Oh trust me, No thanks, I get enough of that from my mom.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_07.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_07.mp3</SoundID>
 						<TextBody>Pa fuera, cosa viejo.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_08.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_08.mp3</SoundID>
 						<TextBody>I know I’m not, nice try though.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_09.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_09.mp3</SoundID>
 						<TextBody>Soy Colombiano, estupida.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_10.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_10.mp3</SoundID>
 						<TextBody>Debe ser triste saber que su madre nunca te amó,</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s02_10_v2.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s02_10_v2.mp3</SoundID>
 						<TextBody>Must be sad knowing your mother never loved you.</TextBody>
 					</DialogueBox>
 
-					<DialogueBox SoundID="diana_s03_01.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_01.mp3</SoundID>
 						<TextBody>Hello? Can I make an order please?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_02.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_02.mp3</SoundID>
 						<TextBody>Alright, can I get a chopped cheese sandwich please?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_03.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_03.mp3</SoundID>
 						<TextBody>ehy que lo que! Que te pasaaaaa. Mira hombre, Te voy a dar tremenda galleta si no te callas la boca!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_04.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_04.mp3</SoundID>
 						<TextBody>So that you guys can always trust this place to get favorite Arizona!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_05.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_05.mp3</SoundID>
 						<TextBody>Wow gracias hermano, I really hope this place doesn’t go down! Goodbye!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_06.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_06.mp3</SoundID>
 						<TextBody>Just ignore them Diana, they are just being obnoxious, They can just go choke on a churro!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_07.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_07.mp3</SoundID>
 						<TextBody>Que me llamaste?! Why you guys throwing shade from that dank ass corner over there!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_08.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_08.mp3</SoundID>
 						<TextBody>What are you people talking about! I’m just trying to order a sandwich!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_09.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_09.mp3</SoundID>
 						<TextBody>Damn, I didn’t even know that was happening...</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_10.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_10.mp3</SoundID>
 						<TextBody>I am so hungry.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s03_11.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s03_11.mp3</SoundID>
 						<TextBody>Whatever! Alright fine, Pendejos, Yo me voy!</TextBody>
 					</DialogueBox>
 
-					<DialogueBox SoundID="diana_s05_01.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_01.mp3</SoundID>
 						<TextBody>Please rethink your decision, this is not something you want to do.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_02.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_02.mp3</SoundID>
 						<TextBody>Well just like the artist you named, you have to continue what you are doing and hone your craft. I know you will make it to the top.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_03.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_03.mp3</SoundID>
 						<TextBody>Poor guy.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_04.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_04.mp3</SoundID>
 						<TextBody>My name is Diana by the way.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_05.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_05.mp3</SoundID>
 						<TextBody>I don't think that's something you want to do.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_06.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_06.mp3</SoundID>
 						<TextBody>I see that you're having a rough day. I'll gladly get you something to eat so you can probably get your mind off things.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_07.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_07.mp3</SoundID>
 						<TextBody>I have no problem doing this, since I don't want see you suffer like this.  One day your dream will come true, just keep at it and in no time you could see billboard charts.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_08.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_08.mp3</SoundID>
 						<TextBody>I would like to but I really have to head home because these corns on my feet is starting to create popcorn and I need to rest. Don't worry the opportunity will come with hard work and dedication, I believe you can make it.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_09.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_09.mp3</SoundID>
 						<TextBody>Now that’s the spirit. Enjoy your meal and have a great day.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_10.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_10.mp3</SoundID>
 						<TextBody>Nice to meet you Jo.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_11.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_11.mp3</SoundID>
 						<TextBody>You're tired you need to rest so you can get a job and find other ways to help people like him.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_12.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_12.mp3</SoundID>
 						<TextBody>I wish I can follow my own advice...</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s05_13.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s05_13.mp3</SoundID>
 						<TextBody>I would like to go home and relax these corns off my feet. I do not want to see a dream wasted just because it did not come true the first try, if it is your thing, go as far as your mind can take you. If not then at least you know you did not give up on what you wanted.</TextBody>
 					</DialogueBox>
 
-					<DialogueBox SoundID="diana_s06_01.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s06_01.mp3</SoundID>
 						<TextBody>Just because I’m Spanish. These putas.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s06_02.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s06_02.mp3</SoundID>
 						<TextBody>Hey those two people in the background look so familiar... isn’t that, that hobo I met last night? I think his name was Jo. Oh man, that was him getting racial profiled.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="diana_s06_03.mp3">
+					<DialogueBox CharacterID="Diana">
+						<SoundID>diana_s06_03.mp3</SoundID>
 						<TextBody>Wow that's what I heard about from yesterday, aw man Hobo Jo...</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -347,37 +437,48 @@
 				<NPCPortrait>Portrait/Ernie</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="ernie_s01_01.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_01.mp3</SoundID>
 						<TextBody>Great night we're having, huh?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_02.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_02.mp3</SoundID>
 						<TextBody>Macaulay Culkin? That’s foul, even coming from you.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_03.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_03.mp3</SoundID>
 						<TextBody>Seriously, I don't even know how that pervert is still working there, he's been terrorizing little high school girls for over a decade, it’s ridiculous.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_04.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_04.mp3</SoundID>
 						<TextBody>You know what? Let’s celebrate! Drinks on me!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_05.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_05.mp3</SoundID>
 						<TextBody>I’m already one step ahead of you.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_06.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_06.mp3</SoundID>
 						<TextBody>Who the hell are you kidding? I saw you on Snapchat with a bottle of Henny two days ago talkin’ about “I could do Hennything!" But whatever you say, St. Diana.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_07.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_07.mp3</SoundID>
 						<TextBody>Alright, want me to give you a lift home? It’s getting a lil'late.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_08.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_08.mp3</SoundID>
 						<TextBody>What’s a chopped cheese?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_09.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_09.mp3</SoundID>
 						<TextBody>What's putting on?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_10.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_10.mp3</SoundID>
 						<TextBody>Ooh okay, but that chopped cheese actually does sound pretty good I’ll try one some time, but not today I got things to get ready for tomorrow. Get home safe, text me, let me know that you got in ok.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="ernie_s01_11.mp3">
+					<DialogueBox CharacterID="Ernie">
+						<SoundID>ernie_s01_11.mp3</SoundID>
 						<TextBody>Wow... I wasn’t having the greatest night either but you don’t see me being a stuck up bitch about it. Find your own way home.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -388,10 +489,12 @@
 				<NPCPortrait>Portrait/Ex</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="dsEx_01.mp3">
+					<DialogueBox CharacterID="Ex">
+						<SoundID>dsEx_01.mp3</SoundID>
 						<TextBody>I didn’t know there was a first, what happened to that? I know we had some problems before but I’m sure we can work it out girl.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="dsEx_02.mp3">
+					<DialogueBox CharacterID="Ex">
+						<SoundID>dsEx_02.mp3</SoundID>
 						<TextBody>Come on babe, I got this bowl of ice cream right here but I’m trying to eat something else too...if you know what I'm saying.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -402,16 +505,20 @@
 				<NPCPortrait>Portrait/GeekMillionaire</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="geekMil_s00_01.mp3">
+					<DialogueBox CharacterID="Geek Millionaire">
+						<SoundID>geekMil_s00_01.mp3</SoundID>
 						<TextBody>I got a limo outside I know you want a joyride for the night. That bus is really cold and it smells like moth balls. The limo's got heated seats and patent leather made from alpaca that was imported from Dubai. Let's not get started on the sound system it's so amazing that George Lucas would call me king. When you get inside there a nice bottle of Ace of Spades. Oh I forgot to tell you that your eyes remind me of my car headlights. So bright, big and beautiful.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="geekMil_s00_02.mp3">
+					<DialogueBox CharacterID="Geek Millionaire">
+						<SoundID>geekMil_s00_02.mp3</SoundID>
 						<TextBody>Money is no option when it comes to you my caliente latin lover.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="geekMil_s00_03.mp3">
+					<DialogueBox CharacterID="Geek Millionaire">
+						<SoundID>geekMil_s00_03.mp3</SoundID>
 						<TextBody>Well fine! I don't even want you anyway why would want a broke bitch who can't see the best option of her life. When I look at Amira I am a camp site and I’m ready to pitch a tent.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="geekMil_s00_04.mp3">
+					<DialogueBox CharacterID="Geek Millionaire">
+						<SoundID>geekMil_s00_04.mp3</SoundID>
 						<TextBody>The keys are in the car and we can ride all night. The choice is yours.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -422,28 +529,36 @@
 				<NPCPortrait>Portrait/Hispanic_Latino_Adult</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="mark_s03-01.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+						<SoundID>mark_s03-01.mp3</SoundID>
 						<TextBody>Mierda! Jajajajaja!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mark_s03-02.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+						<SoundID>mark_s03-02.mp3</SoundID>
 						<TextBody>Ah, disculpa! Yo no sabia muchacha, yo no tengo problema!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mark_s03-03.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+						<SoundID>mark_s03-03.mp3</SoundID>
 						<TextBody>Oh orale. Venga venga vamos a jugar!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mark_s03-04.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+						<SoundID>mark_s03-04.mp3</SoundID>
 						<TextBody>Why are they doing this to us? Starbucks isn't even that good. I’m barely able to afford milk for my kids.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mark_s03-05.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+						<SoundID>mark_s03-05.mp3</SoundID>
 						<TextBody>Man, these people are always coming in here and messing things up, why can’t they just go somewhere else. Gentrification is so unfair! How are we going to afford a regular living. Mis hijos!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mark_s03-06.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+					 	<SoundID>mark_s03-06.mp3</SoundID>
 						<TextBody>Ey we don’t want you people coming into our place and trying to push us out!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mark_s03-07.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+						<SoundID>mark_s03-07.mp3</SoundID>
 						<TextBody>Yeah this was happening last week too, the store across the street was closed down and they opened up a wine and spirits store. Now there's a whole bunch of gringos in there.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mark_s03-08.mp3">
+					<DialogueBox CharacterID="Hispanic/Latino Adults">
+						<SoundID>mark_s03-08.mp3</SoundID>
 						<TextBody>Don’t you dumb kids know about gentrification?! That gets people like us kicked out but we've lived here long!</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -454,68 +569,89 @@
 				<NPCPortrait>Portrait/HoboJoe</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="hoboJo_s04_01.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s04_01.mp3</SoundID>
 						<TextBody>Yo, What you want from me blood?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s04_02.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s04_02.mp3</SoundID>
 						<TextBody>I'm just out here trying to survive.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s04_03.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s04_03.mp3</SoundID>
 						<TextBody>Out of all the people who you can be bothering tonight you come and bother me and for what?!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s04_04.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s04_04.mp3</SoundID>
 						<TextBody>No! My mixtape!</TextBody>
 					</DialogueBox>
 
-					<DialogueBox SoundID="hoboJo_s05_01.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_01.mp3</SoundID>
 						<TextBody>Man, Fuck this, I just got thrown out the club, profiled by a cop and I can’t take this shit no more. I'm done with life man.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_02.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_02.mp3</SoundID>
 						<TextBody>Listen You don't know what I've been through, my life feels like shit because of people like you, forcing me out of my neighborhood and I thought my musical talent was going to take me all the way and move me out the hood. But Kanye, J Cole and the light skin dude of Drake, Chris Brown and The Weeknd became popular but...but I know that I had the greatest mixtape of 2010! Hands down blood, hands down!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_03.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_03.mp3</SoundID>
 						<TextBody>I have a copy of that tape that includes this fire track, so fire that he'll burn the block down, that the fire department will have to be present and put it out. The tape was called "Make loose dollaz change again".</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_04.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_04.mp3</SoundID>
 						<TextBody>Don’t come running in when I blow up. They going to be begging me for a new tape.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_05.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_05.mp3</SoundID>
 						<TextBody>Oh thank you Diana for your help, my name is Jo.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_06.mp3">
-						<TextBody>Fuck this shit, I just got thrown out the club and profiled by these dirty pigs</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_07.mp3">
-						<TextBody>I'm not gonna be able to stay in my neighborhood cause of people like you.</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_08.mp3">
-						<TextBody>I've been grinding for a while and I thought my musical talent was going to get me out first.</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_09.mp3">
-						<TextBody>The light skin gang of Drake, Chris Brown and The Weeknd were stealing all my fans when I know I had the greatest mixtape of 2010 bra, I promise you.</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_10.mp3">
-						<TextBody>I hope so but thank you in advance.</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_11.mp3">
-						<TextBody>Since you're here you should check out this fire off my mixtape called "Make loose change dollaz again". </TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_12.mp3">
-						<TextBody>Trust me this will make the fire department arrive immediately.</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_13.mp3">
-						<TextBody>Don’t think you getting any shine off my name when I’m cashing in these checks and I'm shitting on these guys, man.</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_14.mp3">
-						<TextBody>My name is Jo by the way.</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_15.mp3">
-						<TextBody>"Make loose dollaz change again".</TextBody>
-					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_16.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_06.mp3</SoundID>
 						<TextBody>Fuck this shit, I just got thrown out the club and profiled by these dirty pigs.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="hoboJo_s05_17.mp3">
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_07.mp3</SoundID>
+						<TextBody>I'm not gonna be able to stay in my neighborhood cause of people like you.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_08.mp3</SoundID>
+						<TextBody>I've been grinding for a while and I thought my musical talent was going to get me out first.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_09.mp3</SoundID>
+						<TextBody>The light skin gang of Drake, Chris Brown and The Weeknd were stealing all my fans when I know I had the greatest mixtape of 2010 bra, I promise you.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_10.mp3</SoundID>
+						<TextBody>I hope so but thank you in advance.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_11.mp3</SoundID>
+						<TextBody>Since you're here you should check out this fire off my mixtape called "Make loose change dollaz again".</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_12.mp3</SoundID>
+						<TextBody>Trust me this will make the fire department arrive immediately.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_13.mp3</SoundID>
+						<TextBody>Don’t think you getting any shine off my name when I’m cashing in these checks and I'm shitting on these guys, man.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_14.mp3</SoundID>
+						<TextBody>My name is Jo by the way.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_15.mp3</SoundID>
+						<TextBody>"Make loose dollaz change again".</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_16.mp3</SoundID>
+						<TextBody>Fuck this shit, I just got thrown out the club and profiled by these dirty pigs.</TextBody>
+					</DialogueBox>
+					<DialogueBox CharacterID="Hobo Joe">
+						<SoundID>hoboJo_s05_17.mp3</SoundID>
 						<TextBody>Your people led me to the streets, I do not deserve this. “Make loose dollaz change again” could've been the hit of 2010, but they wasted great talent for artists such as the master of mood swings, Kayne. The reason you're drinking your glass of tears instead of water, aka Drake and the reason you have two baby mamas you can't remember how you met them, aka The Weeknd.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -526,22 +662,28 @@
 				<NPCPortrait>Portrait/Man</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="man_01_v2.mp3">
-						<TextBody>Hey, watch where the hell you’re going! </TextBody>
+					<DialogueBox CharacterID="Man">
+						<SoundID>man_01_v2.mp3</SoundID>
+						<TextBody>Hey, watch where the hell you’re going!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="man_02_v2.mp3">
+					<DialogueBox CharacterID="Man">
+						<SoundID>man_02_v2.mp3</SoundID>
 						<TextBody>Don’t be sorry, be careful!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="man_03_v2.mp3">
+					<DialogueBox CharacterID="Man">
+						<SoundID>man_03_v2.mp3</SoundID>
 						<TextBody>Who do you think you talking to, do you know who I am? I’m Johnny Fuego.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="man_04_v2.mp3">
+					<DialogueBox CharacterID="Man">
+						<SoundID>man_04_v2.mp3</SoundID>
 						<TextBody>I could buy you and this whole bar, all cash no swipe!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="man_05.mp3">
-						<TextBody>I outta-</TextBody>
+					<DialogueBox CharacterID="Man">
+						<SoundID>man_05.mp3</SoundID>
+						<TextBody>I outta!</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="man_06.mp3">
+					<DialogueBox CharacterID="Man">
+						<SoundID>man_06.mp3</SoundID>
 						<TextBody>Whatever, I don’t have time for this!</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -552,31 +694,40 @@
 				<NPCPortrait>Portrait/Matt</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="matt_s01_01.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_01.mp3</SoundID>
 						<TextBody>Wow, you guys sure know how to make an entrance. Everyone knows when the sweetspot crew is in the building.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_02.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_02.mp3</SoundID>
 						<TextBody>I mean, we were 18 back then. I'm 28 years old now, I assumed we would've gotten over this in 10 years. But hey that's just me I guess.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_03.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_03.mp3</SoundID>
 						<TextBody>Touche, can I get you a drink?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_04.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_04.mp3</SoundID>
 						<TextBody>Still trying to charm your way to free things I see.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_05.mp3">
-						<TextBody>Okay boss lady you got it! Although I always pictured you as more of a Henny type of girl though</TextBody>
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_05.mp3</SoundID>
+						<TextBody>Okay boss lady you got it! Although I always pictured you as more of a Henny type of girl though.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_06.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_06.mp3</SoundID>
 						<TextBody>What? Did you end up having an epiphany or something during these 10 years?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_07.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_07.mp3</SoundID>
 						<TextBody>What’s a chopped cheese?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_08.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_08.mp3</SoundID>
 						<TextBody>What's "putting on"?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="matt_s01_09.mp3">
+					<DialogueBox CharacterID="Matt">
+						<SoundID>matt_s01_09.mp3</SoundID>
 						<TextBody>Wow! That actually does sound pretty good, but I'm not gonna hold you for any longer. Now that I work at your favorite spot, don't be a stranger.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -587,10 +738,12 @@
 				<NPCPortrait>Portrait/Mexican_Adult</NPCPortrait>
 
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="mexicanA_s03_01.mp3">
+					<DialogueBox CharacterID="Mexican Adult">
+						<SoundID>mexicanA_s03_01.mp3</SoundID>
 						<TextBody>Oh we have another one in here trying to take over our last spot. Why doesn't she just go somewhere else?</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="mexicanA_s03_02.mp3">
+					<DialogueBox CharacterID="Mexican Adult">
+						<SoundID>mexicanA_s03_02.mp3</SoundID>
 						<TextBody>Yeh! You gringos coming in here and push us out, we're not having any of that today!</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
@@ -598,10 +751,12 @@
 
 		<Element ElementID= "Object_ID: TV">
 				<NPCDialogueBoxes>
-					<DialogueBox SoundID="tv_mex.mp3">
+					<DialogueBox CharacterID="TV">
+						<SoundID>tv_mex.mp3</SoundID>
 						<TextBody>If you are looking for a job and you enjoy seeing a smile on a customer's face  then you should apply for a job at Mex-grill. At Mex-grill you will serve 100% organic mexican dishes.</TextBody>
 					</DialogueBox>
-					<DialogueBox SoundID="tv_news.mp3">
+					<DialogueBox CharacterID="TV">
+						<SoundID>tv_news.mp3</SoundID
 						<TextBody>I am here at the scene where a man was approached by two police officers. We go now to footage of this incident. This is an area where the issue of gentrification is on many people's minds. The topic of gentrification is of serious concern to many people in the community.</TextBody>
 					</DialogueBox>
 				</NPCDialogueBoxes>
