@@ -644,7 +644,7 @@
 					</DialogueBox>
 					<DialogueBox CharacterID="Hobo Joe">
 						<SoundID>hoboJo_s05_15.mp3</SoundID>
-						<TextBody>"Make loose dollaz change again".</TextBody>
+						<TextBody>Make loose dollaz change again.</TextBody>
 					</DialogueBox>
 					<DialogueBox CharacterID="Hobo Joe">
 						<SoundID>hoboJo_s05_16.mp3</SoundID>
