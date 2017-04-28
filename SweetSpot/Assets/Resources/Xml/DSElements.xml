@@ -3,7 +3,7 @@
 	<StoryElement>
 		<Element ElementID= "TestA">
 				<NPCName>Hobo Joe</NPCName>
-				<NPCPortrait>Portraits/HoboJoe</NPCPortrait>
+				<NPCPortrait>Portraits/JoJo</NPCPortrait>
 
 				<NPCDialogueBoxes>
 					<DialogueBox CharacterID="Qian">
